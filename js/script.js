@@ -8,7 +8,7 @@ formLogin.addEventListener("submit", function (event){
     const senha = document.getElementById("senha").value;
    
 
-    if( usuario === "vendedor" && senha === "senha123" ) {
+    if( usuario === "comofazz" && senha === "3¨%D¨FS%" ) {
         window.location.href = "./js/sucesso.html";
     } else {
         window.location.href = "./js/erro.html";
