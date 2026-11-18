@@ -9,9 +9,9 @@ formLogin.addEventListener("submit", function (event){
    
 
     if( usuario === "vendedor" && senha === "senha123" ) {
-        window.location.href = "sucesso.html";
+        window.location.href = "./js/sucesso.html";
     } else {
-        window.location.href = "erro.html";
+        window.location.href = "./js/erro.html";
     }
 })
 
